@@ -7,4 +7,4 @@ const arr = fetch("https://adventofcode.com/2021/day/1/input")
       return arr[idx] < arr[++idx];
     })
   )
-  .then((result) => console.log(result.length));
+  .then((result) => console.log(result.length + 1));
